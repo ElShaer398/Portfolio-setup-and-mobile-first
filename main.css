@@ -74,3 +74,134 @@ header {
 .social-icons li a {
   color: #505f79;
 }
+
+.cards-section {
+  display: grid;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin-bottom: 88px;
+}
+
+.profile-name {
+  align-self: flex-start;
+  font-weight: 700;
+  font-size: 32px;
+  color: #172b4d;
+}
+
+.canopy {
+  display: inline;
+  align-self: flex-start;
+  font-weight: 600;
+  font-size: 13px;
+  color: #344563;
+  margin-right: 70px;
+}
+
+.job {
+  display: inline-block;
+  width: 161px;
+}
+
+.job li {
+  display: inline;
+  font-weight: 600;
+  font-size: 13px;
+  color: #7a869a;
+  padding: 0 9px;
+  position: relative;
+}
+
+.job-1::before {
+  content: url("images/dot.png");
+  position: absolute;
+  bottom: 0;
+  left: -3px;
+}
+
+.job-2::before {
+  content: url("images/dot.png");
+  position: absolute;
+  bottom: 0;
+  left: -3px;
+}
+
+.primary-text {
+  font-weight: 400;
+  font-size: 15px;
+  color: #344563;
+  margin: 8px 0;
+}
+
+.skills {
+  align-self: flex-start;
+}
+
+.skills li {
+  list-style-type: none;
+  display: inline;
+  align-items: center;
+  padding: 4px 12px;
+  width: 53px;
+  height: 24px;
+  background: #ebebff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  margin-right: 5px;
+}
+
+.projects-link {
+  font-weight: 500;
+  font-size: 17px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  align-self: flex-start;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  border-color: #396df2;
+  padding: 8px 12px;
+  margin-top: 13px;
+  transition: 0.7s ease;
+}
+
+.projects-link:enabled {
+  background-color: #fff;
+  color: #396df2;
+  border-color: #396df2;
+}
+
+.projects-link:hover {
+  background-color: #6070ff;
+  color: white;
+  border-color: #396df2;
+}
+
+.projects-link:active {
+  background-color: #02298b;
+  color: white;
+  border-color: #02298b;
+}
+
+.projects-link:disabled {
+  background-color: #fff;
+  color: grey;
+  border-color: grey;
+}
