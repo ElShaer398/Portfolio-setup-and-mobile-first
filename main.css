@@ -10,6 +10,7 @@
 
 body {
   background-color: #eee;
+  width: 375px;
 }
 
 header {
@@ -36,7 +37,6 @@ header {
   background-image: url("images/background-1.png");
   background-repeat: no-repeat;
   background-size: contain;
-  width: 375px;
 }
 
 .name {
@@ -236,7 +236,8 @@ header {
 }
 
 #social-icons-2 {
-  display: block;
+  display: flex;
+  flex-direction: row;
   padding-top: 10px;
   width: 327px;
 }
