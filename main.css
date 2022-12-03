@@ -10,7 +10,6 @@
 
 body {
   background-color: #eee;
-  width: 375px;
 }
 
 header {
@@ -19,6 +18,7 @@ header {
   align-items: center;
   padding: 26px 24px;
   background-color: #fff;
+  width: 375px;
 }
 
 .logo {
@@ -29,11 +29,14 @@ header {
 }
 
 .main-1 {
+  display: flex;
+  flex-direction: column;
   padding: 102px 24px 0 24px;
   height: 718px;
   background-image: url("images/background-1.png");
   background-repeat: no-repeat;
   background-size: contain;
+  width: 375px;
 }
 
 .name {
@@ -58,12 +61,14 @@ header {
 }
 
 .social-icons {
+  display: flex;
+  flex-direction: row;
   list-style-type: none;
 }
 
 .social-icons li {
   margin-right: 20px;
-  float: left;
+  height: 10px;
 }
 
 .social-icons li a {
