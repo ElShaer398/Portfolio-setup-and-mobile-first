@@ -151,7 +151,6 @@ header {
 .skills li {
   list-style-type: none;
   display: inline;
-  align-items: center;
   padding: 4px 12px;
   width: 53px;
   height: 24px;
