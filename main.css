@@ -344,8 +344,11 @@ hr {
   width: 375px;
   background: #6070ff;
   border-top-left-radius: 100px;
-  padding: 24px;
+  padding: 50px 24px 24px 24px;
   align-items: center;
+  background-image: url("images/contact form shapes-mobile.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .contact-form-title {
