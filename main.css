@@ -410,4 +410,29 @@ form {
   font-weight: 500;
   font-size: 17px;
   color: #6070ff;
+  transition: 0.7s ease;
+}
+
+#submit:enabled {
+  background-color: #fff;
+  color: #396df2;
+  border-color: #396df2;
+}
+
+#submit:hover {
+  background-color: #6070ff;
+  color: white;
+  border-color: #396df2;
+}
+
+#submit:active {
+  background-color: #02298b;
+  color: white;
+  border-color: #02298b;
+}
+
+#submit:disabled {
+  background-color: #fff;
+  color: grey;
+  border-color: grey;
 }
