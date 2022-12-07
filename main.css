@@ -354,7 +354,7 @@ hr {
 .contact-form-title {
   font-weight: 700;
   font-size: 40px;
-  color: #FFFFFF;
+  color: #fff;
   padding: 5px;
   margin-top: 103px;
 }
@@ -364,7 +364,7 @@ hr {
   font-weight: 400;
   font-size: 20px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
 }
 
 form {
@@ -379,7 +379,7 @@ form {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: #CFD8DC;
+  border-color: #cfd8dc;
 }
 
 #name {
