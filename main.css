@@ -93,6 +93,16 @@ header {
   margin-bottom: 88px;
 }
 
+.card img {
+  border-radius: 5%;
+  transition-property: border-radius;
+  transition-duration: 1s;
+}
+
+.card img:hover {
+  border-radius: 50%;
+}
+
 .profile-name {
   align-self: flex-start;
   font-weight: 700;
@@ -438,12 +448,3 @@ form {
   border-color: grey;
 }
 
-.card img {
-  border-radius: 5%;
-  transition-property: border-radius;
-  transition-duration: 1s;
-}
-
-.card img:hover {
-  border-radius: 50%;
-}
