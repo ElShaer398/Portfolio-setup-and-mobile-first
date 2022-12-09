@@ -436,3 +436,14 @@ form {
   color: grey;
   border-color: grey;
 }
+
+.card img {
+  border-radius: 5%;
+  transition-property: border-radius;
+  transition-duration: 1s;
+}
+
+.card img:hover {
+  border-radius: 50%;
+}
+
