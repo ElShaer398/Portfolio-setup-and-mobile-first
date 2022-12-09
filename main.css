@@ -447,3 +447,6 @@ form {
   border-radius: 50%;
 }
 
+#submit:hover {
+  transform: scale(1.2);
+}
