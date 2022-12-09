@@ -423,6 +423,7 @@ form {
   background-color: #6070ff;
   color: white;
   border-color: #396df2;
+  transform: scale(1.2);
 }
 
 #submit:active {
@@ -435,4 +436,14 @@ form {
   background-color: #fff;
   color: grey;
   border-color: grey;
+}
+
+.card img {
+  border-radius: 5%;
+  transition-property: border-radius;
+  transition-duration: 1s;
+}
+
+.card img:hover {
+  border-radius: 50%;
 }
