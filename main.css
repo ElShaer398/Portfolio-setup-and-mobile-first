@@ -423,6 +423,7 @@ form {
   background-color: #6070ff;
   color: white;
   border-color: #396df2;
+  transform: scale(1.2);
 }
 
 #submit:active {
@@ -445,8 +446,4 @@ form {
 
 .card img:hover {
   border-radius: 50%;
-}
-
-#submit:hover {
-  transform: scale(1.2);
 }
