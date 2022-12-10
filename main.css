@@ -548,7 +548,7 @@ form {
   .canopy {
     font-weight: 500;
     font-size: 18px;
-    margin:0 32px 0 0;
+    margin: 0 32px 0 0;
   }
 
   .job {
@@ -631,7 +631,6 @@ form {
   .prog-langs li {
     font-weight: 500;
     font-size: 15px;
-    display: inline;
     width: 122px;
     height: 120px;
     display: inline-block;
@@ -695,7 +694,6 @@ form {
     font-weight: 500;
     font-size: 17px;
     width: 142px;
-    
   }
 
   .home-indicator {
