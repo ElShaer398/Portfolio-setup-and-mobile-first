@@ -624,6 +624,12 @@ form {
     margin-top: 35px;
   }
 
+  .languages::after {
+    content: url("images/arrow-3.png");
+    position: absolute;
+    left: 600px;
+  }
+
   .prog-langs {
     order: 4;
   }
@@ -641,6 +647,13 @@ form {
   .frameworks-sills {
     font-weight: 500;
     font-size: 20px;
+  }
+
+  .frameworks-sills::after {
+    content: url("images/arrow.png");
+    position: absolute;
+    top: 15px;
+    left: 600px;
   }
 
   #fr-1 {
