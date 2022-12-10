@@ -437,7 +437,7 @@ form {
   border-color: grey;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
   body {
     width: 100%;
   }
