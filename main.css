@@ -441,20 +441,25 @@ form {
   body {
     width: 100%;
   }
+  
   header {
     height: 72px;
   }
+  
   .nav-items {
     display: inline-block;
     margin-right: 154px;
   }
+  
   .nav-items li {
     display: inline;
     margin-left: 32px;
   }
+  
   header nav img {
     display: none;
   }
+  
   .main-1 {
     background: #fff;
     background-image: url("images/Header-bg.png");
@@ -465,22 +470,27 @@ form {
     padding: 314px 260px 0 260px;
     margin-bottom: 142px;
   }
+  
   .logo {
     margin-left: 155px;
   }
+  
   .name {
     font-weight: 700;
     font-size: 48px;
   }
+  
   .description {
     font-weight: 400;
     font-size: 20px;
     margin-bottom: 35px;
   }
+  
   .connect {
     font-weight: 500;
     font-size: 16px;
   }
+  
   .card {
     width: 1156px;
     height: 496px;
@@ -492,57 +502,70 @@ form {
     column-gap: 46px;
     row-gap: 30px;
   }
+  
   #card-2 {
     grid-template-columns: 496px 544px;
     padding-left: 44px;
   }
+  
   #card-2 img {
     grid-column: 2;
   }
+  
   #card-4 {
     grid-template-columns: 496px 544px;
     padding-left: 44px;
   }
+  
   #card-4 img {
     grid-column: 2;
   }
+  
   .card img {
     width: 544px;
     height: 448px;
     grid-row: 1 / 7;
   }
+  
   .profile-name {
     font-weight: 700;
     font-size: 40px;
     margin: 24px 0 0 0;
   }
+  
   .canopy {
     font-weight: 500;
     font-size: 18px;
     margin:0 32px 0 0;
   }
+  
   .job {
     display: inline;
     width: auto;
   }
+  
   .job li {
     font-weight: 400;
     font-size: 18px;
   }
+  
   .primary-text {
     font-weight: 400;
     font-size: 16px;
   }
+  
   .skills {
     font-weight: 500;
     font-size: 12px;
   }
+  
   .projects-link {
     font-weight: 500;
     font-size: 17px;
     width: 127px;
     height: 48px;
   }
+  
   .about-myself-section {
     background: #fff;
     padding: 142px;
@@ -552,29 +575,35 @@ form {
     column-gap: 50px;
     row-gap: 30px;
   }
+  
   .about-myself {
     font-weight: 700;
     font-size: 40px;
     order: 1;
   }
+  
   .about-myself-text {
     width: auto;
     font-weight: 400;
     font-size: 16px;
     order: 3;
   }
+  
   #connect-2 {
     order: 5;
     margin-top: -15px;
   }
+  
   #social-icons-2 {
     order: 7;
     margin-top: -30px;
   }
+  
   #resume {
     order: 9;
     margin-top: -30px;
   }
+  
   .languages {
     font-weight: 500;
     font-size: 20px;
@@ -582,9 +611,11 @@ form {
     order: 2;
     margin-top: 35px;
   }
+  
   .prog-langs {
     order: 4;
   }
+  
   .prog-langs li {
     font-weight: 500;
     font-size: 15px;
@@ -595,54 +626,66 @@ form {
     padding: 76px 12px 20px 12px;
     margin-top: -100px;
   }
+  
   .frameworks-sills {
     font-weight: 500;
     font-size: 20px;
   }
+  
   #fr-1 {
     order: 6;
   }
+  
   #fr-2 {
     order: 8;
   }
+  
   .contact-form-section {
     background-image: url("images/contact-form-background-shapes.png");
     align-content: center;
   }
+  
   .contact-form-title {
     font-weight: 700;
     font-size: 40px;
   }
+  
   .contact-form-content {
     font-weight: 400;
     font-size: 20px;
     width: 569px;
   }
+  
   .form {
     align-items: center;
   }
+  
   #name {
     font-weight: 400;
     font-size: 17px;
     width: 447px;
   }
+  
   #email {
     font-weight: 400;
     font-size: 17px;
     width: 447px;
   }
+  
   #textarea {
     font-weight: 400;
     font-size: 15px;
     width: 447px;
     height: 170px;
   }
+  
   #submit {
     font-weight: 500;
     font-size: 17px;
     width: 142px;
     
   }
+  
   .home-indicator {
     display: none;
   }
