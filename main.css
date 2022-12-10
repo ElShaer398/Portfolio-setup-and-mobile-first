@@ -503,13 +503,28 @@ form {
     row-gap: 30px;
   }
 
+  #card-1 img {
+    width: 544px;
+    height: 448px;
+    grid-row: 1 / 7;
+  }
+
   #card-2 {
     grid-template-columns: 496px 544px;
     padding-left: 44px;
   }
 
   #card-2 img {
+    width: 544px;
+    height: 448px;
+    grid-row: 1 / 7;
     grid-column: 2;
+  }
+
+  #card-3 img {
+    width: 544px;
+    height: 448px;
+    grid-row: 1 / 7;
   }
 
   #card-4 {
@@ -518,13 +533,10 @@ form {
   }
 
   #card-4 img {
-    grid-column: 2;
-  }
-
-  .card img {
     width: 544px;
     height: 448px;
     grid-row: 1 / 7;
+    grid-column: 2;
   }
 
   .profile-name {
