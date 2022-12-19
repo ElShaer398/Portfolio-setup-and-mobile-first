@@ -8,9 +8,12 @@ menuContainer.addEventListener("click", function () {
 
   if (!controller) {
     document.querySelector("header").style.background = "#6070ff";
-    document.querySelector("header").style.filter = "blur(50%)";
+    //document.querySelector("header").style.filter = "blur(8px)";  
+    //document.querySelector("header").setAttribute("-webkit-filter", "blur(8px)");
     document.querySelector(".main-1").style.background = "#6070ff";
-    document.querySelector(".main-1").style.filter = "blur(50%)"
+    document.querySelector(".main-1").style.mixBlendMode = multiply;
+    //document.querySelector(".main-1").style.filter = "blur(8px)"
+    //document.querySelector(".main-1").setAttribute("-webkit-filter", "blur(8px)");
     items.forEach(function(item) {
       item.style.color = "white";
       item.style.fontSize = "32px";
