@@ -20,7 +20,7 @@ xMark.addEventListener('click', () => {
   main1.style.filter = 'blur(0px)';
 });
 
-for (let i = 0; i <= 3; i+1) {
+for (let i = 0; i <= 3; i + 1) {
   items[i].addEventListener('click', () => {
     popUpNav.style.visibility = 'hidden';
     popUpNav.style.opacity = '0';
