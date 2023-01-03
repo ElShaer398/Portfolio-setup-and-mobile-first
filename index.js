@@ -19,3 +19,10 @@ xMark.addEventListener('click', () => {
   header.style.filter = 'blur(0px)';
   main1.style.filter = 'blur(0px)';
 });
+
+items.addEventListener('click', () => {
+  popUpNav.style.visibility = 'hidden';
+  popUpNav.style.opacity = '0';
+  header.style.filter = 'blur(0px)';
+  main1.style.filter = 'blur(0px)';
+});
