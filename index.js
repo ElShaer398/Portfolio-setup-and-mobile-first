@@ -1,19 +1,19 @@
 /* mobile menu */
-const bars = document.querySelector(".bars");
-const xMark = document.querySelector(".x-mark");
-const popUpNav = document.querySelector(".popUpNav");
-const header = document.querySelector("header");
-const main1 = document.querySelector(".main-1");
+const bars = document.querySelector('.bars');
+const xMark = document.querySelector('.x-mark');
+const popUpNav = document.querySelector('.popUpNav');
+const header = document.querySelector('header');
+const main1 = document.querySelector('.main-1');
 
 
-bars.addEventListener("click", function () {
-  popUpNav.style.transform = "translateX(0px)";
-  header.style.filter = "blur(5px)";
-  main1.style.filter = "blur(5px)";
+bars.addEventListener('click', function navBars() {
+  popUpNav.style.transform = 'translateX(0px)';
+  header.style.filter = 'blur(5px)';
+  main1.style.filter = 'blur(5px)';
 });
 
-xMark.addEventListener("click", function () {
-  popUpNav.style.transform = "translateX(-375px)";
-  header.style.filter = "blur(0px)";
-  main1.style.filter = "blur(0px)";
+xMark.addEventListener('click', function navXMark() {
+  popUpNav.style.transform = 'translateX(-375px)';
+  header.style.filter = 'blur(0px)';
+  main1.style.filter = 'blur(0px)';
 });
