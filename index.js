@@ -4,6 +4,7 @@ const xMark = document.querySelector('.x-mark');
 const popUpNav = document.querySelector('.popUpNav');
 const header = document.querySelector('header');
 const main1 = document.querySelector('.main-1');
+const items = document.querySelector('.nav-items-2 .items');
 
 bars.addEventListener('click', () => {
   popUpNav.style.visibility = 'visible';
