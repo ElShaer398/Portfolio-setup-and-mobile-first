@@ -5,7 +5,6 @@ const popUpNav = document.querySelector('.popUpNav');
 const header = document.querySelector('header');
 const main1 = document.querySelector('.main-1');
 
-
 bars.addEventListener('click', () => {
   popUpNav.style.transform = 'translateX(0px)';
   header.style.filter = 'blur(5px)';
