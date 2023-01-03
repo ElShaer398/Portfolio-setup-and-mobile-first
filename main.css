@@ -78,6 +78,9 @@ header {
 
 .nav-items-2 .items {
   margin-bottom: 40px;
+}
+
+.nav-items-2 .items a {
   color: white;
 }
 
@@ -503,9 +506,13 @@ form {
     margin-right: 154px;
   }
 
-  .nav-items li {
+  .nav-items .items {
     display: inline;
     margin-left: 32px;
+  }
+
+  .nav-items .items a {
+    color: #344563;
   }
 
   .bars {
