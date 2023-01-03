@@ -20,11 +20,23 @@ xMark.addEventListener('click', () => {
   main1.style.filter = 'blur(0px)';
 });
 
-for (let i = 0; i <= 3; i + 1) {
-  items[i].addEventListener('click', () => {
-    popUpNav.style.visibility = 'hidden';
-    popUpNav.style.opacity = '0';
-    header.style.filter = 'blur(0px)';
-    main1.style.filter = 'blur(0px)';
-  });
-}
+items[0].addEventListener('click', () => {
+  popUpNav.style.visibility = 'hidden';
+  popUpNav.style.opacity = '0';
+  header.style.filter = 'blur(0px)';
+  main1.style.filter = 'blur(0px)';
+});
+
+items[1].addEventListener('click', () => {
+  popUpNav.style.visibility = 'hidden';
+  popUpNav.style.opacity = '0';
+  header.style.filter = 'blur(0px)';
+  main1.style.filter = 'blur(0px)';
+});
+
+items[2].addEventListener('click', () => {
+  popUpNav.style.visibility = 'hidden';
+  popUpNav.style.opacity = '0';
+  header.style.filter = 'blur(0px)';
+  main1.style.filter = 'blur(0px)';
+});
