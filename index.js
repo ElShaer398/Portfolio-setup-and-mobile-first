@@ -6,7 +6,7 @@ const header = document.querySelector('header');
 const main1 = document.querySelector('.main-1');
 const items = document.querySelectorAll('.nav-items-2 .items');
 
-bars.addEventListener('click', () => {
+bars.addEventListener('click', () => { //aa
   popUpNav.style.visibility = 'visible';
   popUpNav.style.opacity = '1';
   header.style.filter = 'blur(5px)';
