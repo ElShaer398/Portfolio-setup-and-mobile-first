@@ -8,6 +8,10 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   background-color: rgb(245, 245, 245);
   width: 375px;
